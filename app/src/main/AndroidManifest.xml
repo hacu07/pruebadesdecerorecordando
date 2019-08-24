@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hacu.pruebadesdecerorecordando">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Actividades.InstruccionesActivity" />
+        <activity
+            android:name=".Actividades.SaludoActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Actividades.RegistrarUsuarioActivity" />
+        <activity android:name=".Actividades.ConsultarUsuarioActivity" />
+        <activity android:name=".Actividades.ConsultaComboActivity" />
+        <activity android:name=".Actividades.ConsultarUsuarioListActivity" />
+        <activity android:name=".Actividades.DetalleUsuarioActivity" />
+        <activity android:name=".Actividades.RegistroMascotaActivity" />
+        <activity android:name=".Actividades.ListaMascotasActivity" />
+        <activity android:name=".Actividades.ListaPersonasRecyclerActivity" />
+        <activity android:name=".Actividades.RecyclerPersonalizadoActivity" />
+        <activity android:name=".Actividades.MaterialDesignActivity"></activity>
+    </application>
+
+</manifest>

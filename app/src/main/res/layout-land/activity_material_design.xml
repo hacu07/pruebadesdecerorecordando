@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="10dp"
+    tools:context="com.hacu.pruebadesdecerorecordando.Actividades.MaterialDesignActivity">
+
+    <fragment
+        android:id="@+id/fragList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:name="com.hacu.pruebadesdecerorecordando.Fragments.ListaPersonajesFragment"
+        tools:layout="@layout/fragment_lista_personajes"
+        android:layout_weight="2"
+        />
+
+    <fragment
+        android:id="@+id/fragDetalle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:name="com.hacu.pruebadesdecerorecordando.Fragments.DetallePersonajeFragment"
+        tools:layout="@layout/fragment_detalle_personaje"
+        android:layout_weight="1"
+        />
+
+
+</LinearLayout>
